@@ -1,0 +1,103 @@
+
+<!-- SECCION SOBRE MI -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Resumen Personal</h2>
+        <p><span>Hola, soy Jonnier Andres Teran Morales.</span> Ingeniero de sistemas, proactivo, apasionado por el conocimiento tecnológico y el desarrollo de las nuevas herramientas tecnológicas, amante de los nuevos retos y con amplia capacidad de implementación de soluciones frente a todo tipo de situaciones.</p>
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3 >Información Personal</h3>
+                <ul>
+                    <li>
+                        <strong>Profesión:</strong>
+                        {{Profesion}}                           
+                    </li>
+                    <li>
+                        <strong>Acreditacion Profesional:</strong>
+                        Tajeta Profesional para ingenieros.                          
+                    </li>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        {{DateBriday}}
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        {{Locale}}
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>{{Cargo}}</span>
+                    </li>
+                    <li>
+                        <strong>Repositorio de proyectos git:</strong>
+                        <span><a href="https://github.com/JonnierTeran?tab=repositories"  target="_blank" title="Ir a Github">Ir al Repositorio Github</a></span>
+                    </li>
+                </ul>
+                <h3>Datos de contacto:</h3>
+                <ul>
+                    <li>
+                        <strong>Teléfono</strong>
+                        <a href="tel:+573245644212" title="Llamar a Jonnier"  target="_blank" style="color: blue; text-decoration: none;">{{Cellphone}}</a>
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        <a style="color: blue; text-decoration: none;">{{Email}}</a>
+                    </li>
+                    <li>
+                        <strong>Website</strong>
+                        <a href="#inicio"  target="_blank" style="color: blue; text-decoration: none;">Ir a mi Sitio web</a>
+                    </li>
+                    <li>
+                        <strong>WhatsApp</strong>
+                        <a href="https://api.whatsapp.com/send?phone=3245644212"  target="_blank" title="Ir a WhatsApp" style="color: blue; text-decoration: none;">Ir a WhatsApp</a>
+                    </li>
+                    
+                </ul>
+            </div>
+<br><br>
+            <!-- intereses -->
+            <div class="col">
+                <h3 >Intereses</h3>
+                <div class="contenedor-intereses" style="cursor: pointer;">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                      <div class="interes">
+                        <i class="fa-brands fa-dev"></i>
+                        <span>DEV</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-js"></i>
+                        <span>Front</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>AUTOS</span>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <button (click)="DescargarPDF()" title="Ir a Drive">
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </div>
+</section>
