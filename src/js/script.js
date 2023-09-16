@@ -37,6 +37,8 @@ function efectoHabilidades(){
         habilidades[11].classList.add("proyect");
         habilidades[12].classList.add("proactivo");
         habilidades[13].classList.add("autodidacta");
+        habilidades[14].classList.add("autodidacta");
+        habilidades[15].classList.add("autodidacta");
         
     }
 }

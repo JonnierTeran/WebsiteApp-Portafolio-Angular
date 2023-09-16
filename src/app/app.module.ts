@@ -13,6 +13,7 @@ import { CurriculumComponent } from './Components/curriculum/curriculum.componen
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
 import { CointactosComponent } from './Components/cointactos/cointactos.component';
 import { PieDePaginaComponent } from './Components/pie-de-pagina/pie-de-pagina.component';
+import { ExperienciaLaboralComponent } from './Components/experiencia-laboral/experiencia-laboral.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { PieDePaginaComponent } from './Components/pie-de-pagina/pie-de-pagina.c
     PortfolioComponent,
     CointactosComponent,
     PieDePaginaComponent,
+    ExperienciaLaboralComponent,
   ],
   imports: [
     BrowserModule,

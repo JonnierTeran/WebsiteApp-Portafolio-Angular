@@ -14,7 +14,7 @@ export class InicioComponent implements OnInit {
   constructor(){
     this.name='Jonnier Andres Teran Morales';
     this.rol='Ingeniero De Sistemas'
-    this.rol2='Desarrollador frontend'
+    this.rol2='Desarrollador Full Stack  '
   }
 
 

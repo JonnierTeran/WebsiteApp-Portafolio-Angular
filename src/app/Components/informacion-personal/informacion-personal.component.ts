@@ -15,10 +15,10 @@ export class InformacionPersonalComponent implements OnInit {
   Email:string;
   constructor() {
     this.Profesion='INGENIERO DE SISTEMAS';
-    this.DateBriday='03-07-2001';
+    this.DateBriday='03 / 07 / 2001';
     this.Locale='Lorica / Córdoba / Colombia'
     this.Cellphone= '+57 3245644212'
-    this.Cargo= 'FREELANCER'
+    this.Cargo= 'DESARROLLADOR DE SOFTWARE'
     this.Email='jonnierteranmorales@gmail.com'
    }
 
@@ -28,7 +28,7 @@ export class InformacionPersonalComponent implements OnInit {
   DescargarPDF(){
     Swal.fire({
       title: 'Redirección',
-      text: "Sera redireccionado a un enlace en google dirve donde podra visualizar la hoja de vida de Jonnier, y si gusta podra descargarla en su dispositivo",
+      text: "Sera redireccionado a un enlace en google drive donde podra visualizar la hoja de vida de Jonnier, y si gusta podra descargarla en su dispositivo",
       icon: 'info',
       showCancelButton: true,
       confirmButtonColor: '#3085d6',
@@ -39,7 +39,7 @@ export class InformacionPersonalComponent implements OnInit {
       if (result.isConfirmed) {
           const link = document.createElement("a");
           //link.download = "archivo.pdf";
-          link.href = "https://drive.google.com/file/d/1qp1jnoJJx8POxXcpWuPwYM_64SYiceVb/view?usp=share_link";
+          link.href = "https://drive.google.com/file/d/1ACmOLjZpgmhrrdcZsidGQToK_09ZdCZX/view?usp=sharing";
           link.target="_blank"
           link.click();
         
